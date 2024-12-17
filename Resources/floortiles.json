@@ -1,0 +1,78 @@
+﻿{
+  "packing": [
+    {
+      "SIZE": "300x300mm",
+      "WeightBox": "14 kg",
+      "TilesBox": "11",
+      "SqMeterBox": "0.99",
+      "PalletsContainer": "18",
+      "BoxContainer": "1944",
+      "SqMeterContainer": "1924.56"
+    },
+    {
+      "SIZE": "395x395mm",
+      "WeightBox": "16 kg",
+      "TilesBox": "6",
+      "SqMeterBox": "0.94",
+      "PalletsContainer": "20",
+      "BoxContainer": "1680",
+      "SqMeterContainer": "1579.20"
+    },
+    {
+      "SIZE": "600x600mm",
+      "WeightBox": "31 kg",
+      "TilesBox": "4",
+      "SqMeterBox": "1.44",
+      "PalletsContainer": "23",
+      "BoxContainer": "920",
+      "SqMeterContainer": "1324.80"
+    }
+  ],
+  "tech": [
+    {
+      "PROPERTIES": "Length and width",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.4%"
+    },
+    {
+      "PROPERTIES": "Thickness",
+      "ISO": "+/- 5.0%",
+      "OurValue": "+/- 3.0%"
+    },
+    {
+      "PROPERTIES": "Straightness of sides",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.5%"
+    },
+    {
+      "PROPERTIES": "Rectangularity\t",
+      "ISO": "+/- 0.6%",
+      "OurValue": "+/- 0.4%"
+    },
+    {
+      "PROPERTIES": "Surface flatness\t",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.2%"
+    },
+    {
+      "PROPERTIES": "Water absorption\t",
+      "ISO": "+/- 3.6%",
+      "OurValue": "+/- 3.6%"
+    },
+    {
+      "PROPERTIES": "Breaking strength\t",
+      "ISO": "≥ 220 Kgs/cm2",
+      "OurValue": "≥ 270 Kgs/cm2"
+    },
+    {
+      "PROPERTIES": "Resistance to chemicals",
+      "ISO": "resistance to all alkalis (except hydrochloric acid and its compound)",
+      "OurValue": "resistance to all alkalis (except hydrochloric acid and its compound)"
+    },
+    {
+      "PROPERTIES": "Thermal shock",
+      "ISO": "10 cycles",
+      "OurValue": "4 cycles"
+    }
+  ]
+}

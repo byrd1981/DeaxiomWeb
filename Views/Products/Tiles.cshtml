@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "Products";
+}
+
+<script src="~/Scripts/lib/Lightbox/jquery.js" type="text/javascript"></script>
+<script src="~/Scripts/Lightbox/lc_lightbox.lite.js" type="text/javascript"></script>
+<link rel="stylesheet" href="~/Content/Lightbox/lc_lightbox.css" />
+<script src="~/Scripts/LoadJsonFunc/LoadTilesSpec.js"></script>
+<style>
+    .table-bordered {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+
+    table tr td {
+        background-color: #EFE0DA !important;
+        color: #4F2F22 !important;
+    }
+</style>
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-3 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-3">
+        <h1 class="display-1 text-white animated slideInDown">Products</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb text-uppercase mb-0">
+                <li class="breadcrumb-item"><label class="text-white">Home</label></li>
+                <li class="breadcrumb-item"><label class="text-white">Products</label></li>
+                <li class="breadcrumb-item"><a class="text-white" href="javascript:void()" onclick="BackToOrg();">Tiles</a></li>
+                <li class="breadcrumb-item"><b><label id="lnkSelected" class="text-white"></label></b></li>
+                <!--<li class="breadcrumb-item"><a class="text-white" href="#">Tiles</a></li>-->
+                @*<li class="breadcrumb-item"><a class="text-white" href="#">|</a></li>*@
+                <!--<li class="breadcrumb-item text-primary active" aria-current="page">Specification</li>-->
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- About Start -->
+<div id="maindiv" class="container-xxl">
+    <div class="container">
+        <div class="mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h4 class="section-title">Products</h4>
+            <h1 class="display-5 mb-4">Tiles & Stones</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" onclick="showThisList('1');" style="cursor:pointer;">
+                <div class="service-item d-flex position-relative text-center h-100">
+                    <img class="bg-img" src="~/Content/img/categories/Carpets/Aphrodite.png" alt="">
+                    <div class="service-text p-5">
+                        <img class="mb-4" src="~/Content/img/icons/icon-5.png" alt="Icon">
+                        <h3 class="mb-3">Porcelain / Vitrified Tiles</h3>
+                        <p class="mb-4">Porcelain tiles offer a vast range of design options, superior durability, and water resistance. On the other hand, Vitrified tiles provide excellent stain resistance, uniformity, and affordability.</p>
+                        @*<a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>More</a>*@
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" onclick="showThisList('2');" style="cursor:pointer;">
+                <div class="service-item d-flex position-relative text-center h-100">
+                    <img class="bg-img" src="~/Content/img/service-2.jpg" alt="">
+                    <div class="service-text p-5">
+                        <img class="mb-4" src="~/Content/img/icons/icon-6.png" alt="Icon">
+                        <h3 class="mb-3">Ceramic Wall Tiles</h3>
+                        <p class="mb-4">Tiles are strong, versatile, budget friendly, easy to clean, possess low porosity, and require minimal maintenance. These tiles can be installed on both floors and walls and are available in a variety of colours, designs, finishes, and sizes for you to choose from.</p>
+                        @*<a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>More</a>*@
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" onclick="showThisList('3');" style="cursor:pointer;">
+                <div class="service-item d-flex position-relative text-center h-100">
+                    <img class="bg-img" src="~/Content/img/service-3.jpg" alt="">
+                    <div class="service-text p-5">
+                        <img class="mb-4" src="~/Content/img/icons/icon-7.png" alt="Icon">
+                        <h3 class="mb-3">Outdoor Stones</h3>
+                        <p class="mb-4">Specifically designed and produced for outdoor application. Emulate the beauty of your interior design and extend your living spaces with a contemporary and continental lifestyle look</p>
+                        @*<a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>More</a>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+    <div class="container-xxl py-5" id="divlist" style="display:none;">
+
+    </div>
+</div>
+<div id="specdiv" class="container-xxl">
+
+</div>
+<input type="hidden" id="hdnclicked" name="hdnclicked" value="0">
+
+    <!-- Feature End -->
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            
+            // live handler
+            lc_lightbox('.elem', {
+                wrap_class: 'lcl_fade_oc',
+                gallery: true,
+                thumb_attr: 'data-lcl-thumb',
+
+                skin: 'minimal',
+                radius: 0,
+                padding: 0,
+                border_w: 0,
+            });
+        });
+        function showThisList(selcat) {            
+            LoadSelectedCat(selcat);
+            $("#divlist").toggle();
+            $('html, body').animate({ scrollTop: 800 }, 500);
+        }
+        function BackToOrg() {
+            var hdn = $("#hdnclicked").val();
+            if (hdn == 1) {                
+                $("#lnkSelected").text('');
+                $("#maindiv").toggle();
+                $("#hdnclicked").val(0);
+                document.getElementById('specdiv').innerHTML = "";
+                $('html, body').animate({ scrollTop: 800 }, 500);
+            }
+        }        
+    </script>

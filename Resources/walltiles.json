@@ -1,0 +1,72 @@
+{
+  "packing": [
+    {
+      "SIZE": "250x375mm",
+      "WeightBox": "8.5 kg",
+      "TilesBox": "8",
+      "SqMeterBox": "0.75",
+      "PalletsContainer": "24",
+      "BoxContainer": "3060",
+      "SqMeterContainer": "2295.00"
+    },
+    {
+      "SIZE": "300x450mm",
+      "WeightBox": "11 kg",
+      "TilesBox": "6",
+      "SqMeterBox": "0.81",
+      "PalletsContainer": "21",
+      "BoxContainer": "2520",
+      "SqMeterContainer": "2041.20"
+    },
+    {
+      "SIZE": "300x600mm",
+      "WeightBox": "14.5 kg",
+      "TilesBox": "5",
+      "SqMeterBox": "0.90",
+      "PalletsContainer": "23",
+      "BoxContainer": "1932",
+      "SqMeterContainer": "1564.92"
+    },
+    {
+      "SIZE": "250x750mm",
+      "WeightBox": "15.5 kg",
+      "TilesBox": "5",
+      "SqMeterBox": "0.94",
+      "PalletsContainer": "20",
+      "BoxContainer": "1760",
+      "SqMeterContainer": "1654.40"
+    }
+  ],
+  "tech": [
+    {
+      "Properties": "Dimension",
+      "EuroStand": "+/- 0.5%",
+      "OurValue": "+/- 0.2%"
+    },
+    {
+      "Properties": "Deviation in Thickness",
+      "EuroStand": "+/- 0.6mm",
+      "OurValue": "+/- 0.2mm"
+    },
+    {
+      "Properties": "Straightness of sides",
+      "EuroStand": "+/- 0.3%",
+      "OurValue": "+/- 0.2%"
+    },
+    {
+      "Properties": "Rectangularity",
+      "EuroStand": "+/- 0.5%",
+      "OurValue": "+/- 0.3%"
+    },
+    {
+      "Properties": "Surface flatness",
+      "EuroStand": "+/- 0.5%",
+      "OurValue": "+/- 0.3%"
+    },
+    {
+      "Properties": "Surface Quality",
+      "EuroStand": "Min 95%",
+      "OurValue": "Min 96%"
+    }
+  ]
+}

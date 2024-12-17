@@ -1,0 +1,218 @@
+{
+  "prods": [
+    {
+      "spec": {
+        "PRODIMAGE": "/content/img/categories/Carpets/Aphrodite.png",
+        "RANGE": "SmartChoice Aphrodite, SmartChoice Easy Living",
+        "COLOR": "Beige, Black, Blue, Bronze, Brown, Copper, Dark Brown, Gold, Green, Grey, Light Brown, Light Grey, Medium Grey, Metallic, Orange, Red, Silver, White",
+        "ROOMS": "Bedroom, Dining Room, Landing, Living Room, Lounge, Stairs, Study, Hall",
+        "STYLE": "Cut Pile",
+        "TOPRATING": "2.35",
+        "BACKING": "Soft Fleece",
+        "AVAILABLEWIDTH": "2.5m, 4m, 5m",
+        "UNDERFLOORHEATING": "Suitable",
+        "PILECONTENT": "100% Polyester",
+        "DIFFSIZES": [
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Artic-White.png",
+            "SIZETEXT": "600x600 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/City-Life.png",
+            "SIZETEXT": "600x900 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Dove-Grey.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Honey-Dew.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Lime-Wash.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Mackintosh.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Potato-Cake.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Shinning-Light.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Smoky-Mist.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Soft-Shadow.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Steel-Drum.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/1/Walnut.png",
+            "SIZETEXT": "600x1200 mm"
+          }
+        ]
+      },
+      "name": "Aphrodite",
+      "id": "1"
+    },
+    {
+      "spec": {
+        "PRODIMAGE": "/content/img/categories/Carpets/AphroditePlus.png",
+        "RANGE": "SmartChoice Aphrodite, SmartChoice Easy Living",
+        "COLOR": "Beige, Black, Blue, Bronze, Brown, Copper, Dark Brown, Gold, Green, Grey, Light Brown, Light Grey, Medium Grey, Metallic, Orange, Red, Silver, White",
+        "ROOMS": "Bedroom, Dining Room, Landing, Living Room, Lounge, Stairs, Study, Hall",
+        "STYLE": "Cut Pile",
+        "TOPRATING": "2.66",
+        "BACKING": "Soft Fleece",
+        "AVAILABLEWIDTH": "2.5m, 4m, 5m",
+        "UNDERFLOORHEATING": "Suitable",
+        "PILECONTENT": "100% Polyester",
+        "DIFFSIZES": [
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Artic-White.png",
+            "SIZETEXT": "600x600 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/City-Life.png",
+            "SIZETEXT": "600x900 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Dove-Grey.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Honey-Dew.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Lime-Wash.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Mackintosh.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Potato-Cake.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Shinning-Light.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Smoky-Mist.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Soft-Shadow.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Steel-Drum.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/2/Walnut.png",
+            "SIZETEXT": "600x1200 mm"
+          }
+        ]
+      },
+      "name": "Aphrodite Plus",
+      "id": "2"
+    },
+    {
+      "spec": {
+        "PRODIMAGE": "/content/img/categories/Carpets/LivingRoom.jpg",
+        "RANGE": "SmartChoice Easy Living",
+        "COLOR": "Beige, Bronze, Brown, Copper, Gold, Grey, Light Brown, Light Grey, Medium Grey, Metallic, Orange, Silver, White",
+        "ROOMS": "Bedroom, Dining Room, Landing, Living Room, Lounge, Stairs, Study, Hall",
+        "STYLE": "Cut Pile",
+        "TOPRATING": "2.66",
+        "BACKING": "Soft Fleece",
+        "AVAILABLEWIDTH": "2.5m, 4m, 5m",
+        "UNDERFLOORHEATING": "Suitable",
+        "PILECONTENT": "100% Polyester",
+        "DIFFSIZES": [
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Ball-Gown.png",
+            "SIZETEXT": "600x600 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Bavarian-Cream.png",
+            "SIZETEXT": "600x900 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Blizzard.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Brazil.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Calico.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Canadian-Oak.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Cloudy-Bay.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Ecru.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Flint.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Grayfriars.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Moonraker.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Obelisk.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Padano.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Putty.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Standing-Stone.png",
+            "SIZETEXT": "600x1200 mm"
+          },
+          {
+            "IMAGEPATH": "/content/img/categories/carpets/3/Town-House.png",
+            "SIZETEXT": "600x1200 mm"
+          }
+        ]
+      },
+      "name": "SmartChoice Easy Living Plus",
+      "id": "3"
+    }
+  ]
+}

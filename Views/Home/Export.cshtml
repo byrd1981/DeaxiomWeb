@@ -1,0 +1,246 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<style>
+    #chartdiv {
+        width: 80%;
+        height: 60vh;
+    }
+
+    .ScrollStyle {
+        max-height: 450px;
+        overflow-y: auto;
+        overflow-x:hidden;
+    }
+</style>
+
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-3 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-3">
+        <h1 class="display-1 text-white animated slideInDown">Export Worldwide</h1>
+        @*<nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">About</li>
+                </ol>
+            </nav>*@
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="">
+            <div class="container" style="max-width:1260px;">
+                <div class="wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h2 class="display-5 mb-4">Exporting</h2>
+                </div>
+                <div id="chartdiv"></div>
+            </div>
+        </div>
+        <br />
+        <div class="">
+            <div class="container" style="max-width:1260px;">
+                <div class="wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h2 class="display-5 mb-4">Packing</h2>
+                </div>
+                <p>
+                    Working with leading DIY stores across continents gave us immense experience with different types of packing required for porcelain pavers.
+                    For regular format PGVT as well, we have the right way to handle the new formats and the way they are packed in pallets.
+                </p>
+                <br />
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s" style="border-style: solid; border-color: #E0E6EE; border-radius: 5px; background-color: white;">
+                    <div class="col-lg-3">
+                        <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                            <button class="nav-link w-100 d-flex align-items-center text-start active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                                <h4 class="m-0">2cm 60×90</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                                <h4 class="m-0">2cm 60×60</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                                <h4 class="m-0">2cm 60×120</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                                <h4 class="m-0">3cm 60×60</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-5" type="button">
+                                <h4 class="m-0">60x120cm</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
+                                <h4 class="m-0">60x60cm</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-7" type="button">
+                                <h4 class="m-0">80x80cm</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start " data-bs-toggle="pill" data-bs-target="#tab-pane-8" type="button">
+                                <h4 class="m-0">20x120cm</h4>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="ScrollStyle">
+                            <div class="tab-content w-100">
+                                <div class="tab-pane fade show active" id="tab-pane-1">
+                                    <div class="row g-4">
+
+                                        <div class="col-md-12">
+                                            <h4>60x90x2cm (24″x36″x0.8″)</h4>
+                                            <img src="~/Content/img/multiImgs.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/1/a.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/1/b.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/1/c.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/1/d.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-2">
+                                    <div class="row g-4">
+
+                                        <div class="col-md-12">
+                                            <h4>60x60x2cm (24″X24″X0.8″)</h4>
+                                            <img src="~/content/img/multiImgsb.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/2/a.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/2/b.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/2/c.jpg" />
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/2/d.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-3">
+                                    <div class="row g-4">
+
+                                        <div class="col-md-12">
+                                            <h4>60x120x2cm (24″X48″X0.8″)</h4>
+                                            <img src="~/content/img/multiImgsc.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/3/a.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-4">
+                                    <div class="row g-4">
+
+                                        <div class="col-md-12">
+                                            <h4>60x60x3cm (24″X24″X1.2″)</h4>
+                                            <img src="~/content/img/packing/4/multiImgs.jpg" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-5">
+                                    <div class="row g-4">
+                                        <div class="col-md-12">
+                                            <h4>60×120 (24″X48″)</h4>
+                                            <h5>Small pallets (Euro style) are safe for 60×120 regular PGVT. They are easy to stake, move and sell.</h5>
+                                            <img src="~/Content/img/packing/5/multiImgs.jpg" />
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/5/a.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <h4>We also offer large pallets (vertical at lower row + horizontal on top of it). These pallets can help you with cheaper price but there stability issues inside container. To overcome this issue we tie them with belts inside container as you can see below.</h4>
+                                            <img src="~/Content/img/packing/5/multiImgs2.jpg" />
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/5/b.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-6">
+                                    <div class="row g-4">
+                                        <div class="col-md-12">
+                                            <h4>60×60 (24″X24″) With 8.4 MM Thickness</h4>
+                                            <img src="~/Content/img/packing/6/multiImgs.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/6/a.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <h4>Also we offer 60×60 cm in 16 mm thickness (full body)</h4>
+                                            <img src="~/Content/img/packing/6/multiImgs2.jpg" />
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-7">
+                                    <div class="row g-4">
+                                        <div class="col-md-12">
+                                            <h4>80x80cm (32″X32″)</h4>
+                                            <img src="~/Content/img/packing/7/multiImgs.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/7/a.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-pane-8">
+                                    <div class="row g-4">
+                                        <div class="col-md-12">
+                                            <h4>20x120cm (8″X48″) Packing Detail</h4>
+                                            <h5>Our 20×120 wood planks are packed in small pallets to avoid damage in transit.</h5>
+                                            <img src="~/Content/img/packing/8/multiImgs.jpg" />
+
+                                        </div>
+                                        <div class="row g-4">
+                                            <div class="col-md-3">
+                                                <img src="~/content/img/packing/8/a.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="~/Scripts/main/map/index.js"></script>
+<script src="~/Scripts/main/map/map.js"></script>
+<script src="~/Scripts/main/map/geodata/worldLow.js"></script>
+<script src="~/Scripts/main/map/themes/Animated.js"></script>
+<script src="~/Scripts/main/mapindex.js"></script>

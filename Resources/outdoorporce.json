@@ -1,0 +1,204 @@
+{
+  "packing": [
+    {
+      "SIZE": "600 * 1200mm (20mm)",
+      "BOXWEIGHT": "32.5",
+      "PCSBOX": "1",
+      "SQMBOX": "0.72",
+      "SQFTBOX": "7.75",
+      "BOXPALLET": "30",
+      "PALLETCTN": "28",
+      "BOXESCTN": "840",
+      "TOTALSQMCTN": "604.8",
+      "CTNWEIGHT": "28000"
+    },
+    {
+      "SIZE": "600 * 900mm (20mm)",
+      "BOXWEIGHT": "24.5",
+      "PCSBOX": "1",
+      "SQMBOX": "0.54",
+      "SQFTBOX": "5.81",
+      "BOXPALLET": "40",
+      "PALLETCTN": "28",
+      "BOXESCTN": "1120",
+      "TOTALSQMCTN": "604.8",
+      "CTNWEIGHT": "28000"
+    },
+    {
+      "SIZE": "600 * 600 (20mm)",
+      "BOXWEIGHT": "32",
+      "PCSBOX": "2",
+      "SQMBOX": "0.72",
+      "SQFTBOX": "7.75",
+      "BOXPALLET": "36",
+      "PALLETCTN": "24",
+      "BOXESCTN": "864",
+      "TOTALSQMCTN": "622.08",
+      "CTNWEIGHT": "28000"
+    },
+    {
+      "SIZE": "600 * 1200mm (16mm)",
+      "BOXWEIGHT": "25.5",
+      "PCSBOX": "1",
+      "SQMBOX": "0.72",
+      "SQFTBOX": "7.75",
+      "BOXPALLET": "70 & 34",
+      "PALLETCTN": "12 & 7",
+      "BOXESCTN": "1078",
+      "TOTALSQMCTN": "776.16",
+      "CTNWEIGHT": "28000"
+    },
+    {
+      "SIZE": "600 * 900mm (16mm)",
+      "BOXWEIGHT": "-",
+      "PCSBOX": "-",
+      "SQMBOX": "-",
+      "SQFTBOX": "-",
+      "BOXPALLET": "-",
+      "PALLETCTN": "-",
+      "BOXESCTN": "-",
+      "TOTALSQMCTN": "-",
+      "CTNWEIGHT": "-"
+    },
+    {
+      "SIZE": "600 * 600mm (16mm)",
+      "BOXWEIGHT": "25.5",
+      "PCSBOX": "2",
+      "SQMBOX": "0.72",
+      "SQFTBOX": "7.75",
+      "BOXPALLET": "40",
+      "PALLETCTN": "27",
+      "BOXESCTN": "1080",
+      "TOTALSQMCTN": "777.6",
+      "CTNWEIGHT": "28000"
+    }
+  ],
+  "tech": [
+    {
+      "DESCRIPTION": "Length & Width",
+      "ISO": "+/- 0.6%",
+      "MEAN": "+/- 0.3mm",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Thickness",
+      "ISO": "+/- 5%",
+      "MEAN": "+/- 0.3mm",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Straightness of side",
+      "ISO": "+/- 0.5%",
+      "MEAN": "+/- 0.3%",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Rectangularity",
+      "ISO": "+/- 0.6%",
+      "MEAN": "+/- 0.3%",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Surface flatness",
+      "ISO": "+/- 0.5%",
+      "MEAN": "+ 0.35mm to -0.1mm",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Surface Quality",
+      "ISO": "Minimum 95%",
+      "MEAN": "Minimum 95%",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Water Absorption",
+      "ISO": "< 0.5%",
+      "MEAN": "< 0.04%",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Breaking strength",
+      "ISO": "> 1300N",
+      "MEAN": "> 1500N",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Flexural strength(Average)",
+      "ISO": "> 35N/mm2",
+      "MEAN": "> 40N/mm2",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Scratch hardness of surface(Moh's scale)",
+      "ISO": "> 6",
+      "MEAN": "> 6",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Resistance to deep abrasion",
+      "ISO": "< 175mm3",
+      "MEAN": "< 144mm3",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Skid Resistance(Friction coefficient)",
+      "ISO": "> 0.4",
+      "MEAN": "> 0.4",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Bulk Density, in (g/cc)",
+      "ISO": "> 2",
+      "MEAN": "> 2",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Linear Thermal Expansion",
+      "ISO": "Max 9.0-4 * K-6, Max",
+      "MEAN": "Max 9.0-6 * K-6, Max",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Thermal Shock Resistance",
+      "ISO": "No Damage",
+      "MEAN": "No Damage",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Frost Resistance",
+      "ISO": "Frost Proof",
+      "MEAN": "Frost Proof",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Resistance to Chemical",
+      "ISO": "Resistance",
+      "MEAN": "Resistance",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Resistance to Stain",
+      "ISO": "Resistance",
+      "MEAN": "Resistance",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Moisture Expansion",
+      "ISO": "Nil",
+      "MEAN": "Nil",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Colour Resistance",
+      "ISO": "Resistance",
+      "MEAN": "Resistance",
+      "TESTMETHOD": "Passed"
+    },
+    {
+      "DESCRIPTION": "Glossiness(Polished)",
+      "ISO": "-",
+      "MEAN": "-",
+      "TESTMETHOD": "Passed"
+    }
+  ]
+}

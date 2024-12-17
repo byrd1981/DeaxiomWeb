@@ -1,0 +1,135 @@
+{
+  "packing": [
+    {
+      "SIZE": "600 x 600mm",
+      "WeightBox": "27.5 Kg",
+      "TilesBox": "4",
+      "SqMeterBox": "1.44",
+      "PalletsContainer": "24",
+      "BoxContainer": "960",
+      "SqMeterContainer ": "1382.40"
+    }
+  ],
+  "tech": [
+    {
+      "PROPERTIES": "Deviation in Length",
+      "TESTMETHOD": "EN 98",
+      "ISO": "+/- 0.6%",
+      "OurValue": "+/- 0.1%"
+    },
+    {
+      "PROPERTIES": "Deviation in Thickness",
+      "TESTMETHOD": "EN 98",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.4%"
+    },
+    {
+      "PROPERTIES": "Straightness of sides",
+      "TESTMETHOD": "EN 98",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.1%"
+    },
+    {
+      "PROPERTIES": "Rectangularity",
+      "TESTMETHOD": "EN 98",
+      "ISO": "+/- 0.6%",
+      "OurValue": "+/- 0.2%"
+    },
+    {
+      "PROPERTIES": "Surface flatness",
+      "TESTMETHOD": "EN 98",
+      "ISO": "+/- 0.5%",
+      "OurValue": "+/- 0.3%"
+    },
+    {
+      "PROPERTIES": "Water absorption",
+      "TESTMETHOD": "EN 99",
+      "ISO": "< 0.5%",
+      "OurValue": "< 0.05%"
+    },
+    {
+      "PROPERTIES": "Scratch hardness (MOH's Scale)",
+      "TESTMETHOD": "EN 101",
+      "ISO": "> 6 MOHS",
+      "OurValue": "> 7 MOHS"
+    },
+    {
+      "PROPERTIES": "Modulus of Rupture",
+      "TESTMETHOD": "EN 100",
+      "ISO": "> 27 N/mm2",
+      "OurValue": "> 47 N/mm2"
+    },
+    {
+      "PROPERTIES": "Abrasion Resistance",
+      "TESTMETHOD": "EN 102",
+      "ISO": "< 204 mm3",
+      "OurValue": "< 98 mm3"
+    },
+    {
+      "PROPERTIES": "Skid Resistance (Friction Coefficient)",
+      "TESTMETHOD": "ASTM C-1028",
+      "ISO": ">0.4",
+      "OurValue": "> 0.6"
+    },
+    {
+      "PROPERTIES": "Breaking Strength",
+      "TESTMETHOD": "ASTM C-648",
+      "ISO": "1113 N",
+      "OurValue": "> 2830 N"
+    },
+    {
+      "PROPERTIES": "Density (g/cc)*",
+      "TESTMETHOD": "DIN 51082",
+      "ISO": "> 2",
+      "OurValue": "> 2.4"
+    },
+    {
+      "PROPERTIES": "Frost Resistance",
+      "TESTMETHOD": "EN 202",
+      "ISO": "Frost proof",
+      "OurValue": "Frost proof"
+    },
+    {
+      "PROPERTIES": "Chemical Resistance",
+      "TESTMETHOD": "EN 106",
+      "ISO": "No damage",
+      "OurValue": "No damage"
+    },
+    {
+      "PROPERTIES": "Thermal Shock Resistance",
+      "TESTMETHOD": "EN 104",
+      "ISO": "No damage",
+      "OurValue": "No damage"
+    },
+    {
+      "PROPERTIES": "Colour Resistance",
+      "TESTMETHOD": "DIN 51094",
+      "ISO": "No damage",
+      "OurValue": "No damage"
+    },
+    {
+      "PROPERTIES": "Thermal Expansion",
+      "TESTMETHOD": "EN 103",
+      "ISO": "< 9 x 10-6",
+      "OurValue": "< 6 x 10-6"
+    },
+    {
+      "PROPERTIES": "Stain Resistance",
+      "TESTMETHOD": "ISO 10545-14",
+      "ISO": "Resistant",
+      "OurValue": "Resistant"
+    },
+    {
+      "PROPERTIES": "Moisture Expansion",
+      "TESTMETHOD": "ISO 10545-10",
+      "ISO": "Nil",
+      "OurValue": "Nil"
+    },
+    {
+      "PROPERTIES": "Glossiness*",
+      "TESTMETHOD": "Glossmeter",
+      "ISO": "-",
+      "OurValue": "Min 65%-70% reflection"
+    }
+  ]
+}
